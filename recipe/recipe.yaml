@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: jupyterlab-launchpad
-  version: "1.2.0"
+  version: "1.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/jupyterlab_launchpad-${{ version }}.tar.gz
-  sha256: 545f30665b8dd985c2ca2cd3b293f7923f1090f553520e375097dd3ee5fcc1aa
+  sha256: 07ba5598705061ef9d3f72e156a7c273b4a172eac225d8d07ed3f09adc5fc9a2
 
 build:
   number: 0
